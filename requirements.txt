@@ -5,3 +5,4 @@ uvicorn[standard]
 openai==1.8.0
 tiktoken==0.5.2
 langchain-openai==0.0.3
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
